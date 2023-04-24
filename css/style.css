@@ -1,0 +1,43 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    gap: 50px;
+    justify-content: center;
+}
+
+.imgs:hover {
+    opacity: 0.5;
+    width: 150px;
+    height: 150px;
+}
+
+.imgs {
+    display: flex;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+li {
+    display: flex;
+    font-size: 30px;
+}
+
+footer {
+    padding: 1.25rem;
+    text-align: center;
+}
+.footer-imgs{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
