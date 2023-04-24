@@ -21,8 +21,11 @@ nav {
 
 .imgs:hover {
     opacity: 0.5;
+    height: 150px;
+    width: 150px;
     color: white;
 }
+
 .imgs {
     display: block;
     margin: auto;
